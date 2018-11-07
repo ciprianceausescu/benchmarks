@@ -1,5 +1,7 @@
 # Instructions for adding distributed benchmarks to continuous run:
 
+## Options.
+
 1. You can add your benchmark file under
    [tensorflow/benchmarks/scripts](https://github.com/tensorflow/benchmarks/tree/master/scripts) directory. The benchmark should accept `task_index`, `job_name`, `ps_hosts` and `worker_hosts` flags. You can copy-paste the following flag definitions:
 
