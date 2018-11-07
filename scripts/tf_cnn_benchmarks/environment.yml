@@ -1,4 +1,4 @@
-name: article_try
+name: lars_optimizer
 channels:
   - tensorflow
   - defaults
@@ -36,5 +36,4 @@ dependencies:
   - wheel=0.32.2=py36_0
   - wincertstore=0.2=py36h7fe50ca_0
   - zlib=1.2.11=h8395fce_2
-prefix: C:\Users\Ciprian\Anaconda3\envs\article_try
-
+  
